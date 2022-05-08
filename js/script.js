@@ -16,6 +16,8 @@ function getImage() {
         $imageContainer.empty();
         //creates img tag and pulls from the API array data
         $imageContainer.append(`<img src='${data[0].url}'></img>`)
+            
+        
        
     
         console.log(data[0])
