@@ -16,8 +16,6 @@ function getImage() {
     })
 }
 
-
-
 //calling getImage function
 getImage();
 
