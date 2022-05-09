@@ -8,6 +8,7 @@ console.log($findFriend)
 
 
 
+
 //function to get image 
 function getImage() {
    //function to call api for cat images 
@@ -41,5 +42,14 @@ $('#friend-btn').on('click', function(event){
     getImage()
     
    
+})
+
+
+$('#adopt-btn').on('click', function(){
+    window.open("https://www.petfinder.com/", "_blank")
+})
+
+$('#cafe-btn').on('click', function(){
+    window.open("https://www.naughtycatcafe.com/visit-us", "_blank")
 })
 
