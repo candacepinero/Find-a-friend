@@ -1,7 +1,6 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+* {
+    box-sizing: border-box;
+}
 
 /* styling header/img */
 #logo {
@@ -15,12 +14,27 @@
 
 /* styling image to to in center of screen */
 #imageContainer {
-    display: grid;
+
+    display: flex;
     justify-content: center;
-    padding: 200px;
+    padding: 10px;
 
 }
 
+#catImg {
+    /* border: 2px solid yellow; */
+    object-fit: contain;
+}
+
+
+
+.btn-div {
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    padding: 30px;
+
+}
 
 /* style button  */
 #friend-btn {
@@ -40,38 +54,41 @@ button:hover {
 
 }
 
-main {
-    border: 2px solid green;
-    display: flex;
-    justify-content: center;
 
-
-}
-
-.btn-div {
-    display: flex;
-    border: 2px solid blue;
-    justify-content: center;
-    padding: 30px;
-
-}
 
 nav {
     display: flex;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     width: 100%;
     height: 50px;
+    gap: 10px;
     justify-content: center;
 
-
 }
+
 /* style the nav buttons */
 #adopt-btn {
-
+    display: flex;
+    padding: 10px;
+    border: 2px solid lightblue;
+    background-color: rgb(175, 238, 195);
+    font-size: 20px;
 }
 
 #cafe-btn {
+    display: flex;
+    padding: 10px;
+    border: 2px solid lightblue;
+    background-color: rgb(175, 238, 195);
+    font-size: 20px;
+}
 
+#catcare {
+    display: flex;
+    padding: 10px;
+    border: 2px solid lightblue;
+    background-color: rgb(175, 238, 195);
+    font-size: 20px;
 }
 
 

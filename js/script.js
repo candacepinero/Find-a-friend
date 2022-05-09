@@ -16,7 +16,9 @@ function getImage() {
         //empties the the imageContainer div tag and renders new img 
         $imageContainer.empty();
         //creates img tag and pulls from the API array data
-        $imageContainer.append(`<img src='${data[0].url}'></img>`)
+        $imageContainer.append(`<img id="catImg" src='${data[0].url}'></img>`)
+        $(this)
+            .fade(1000)
             
         
        
@@ -53,3 +55,6 @@ $('#cafe-btn').on('click', function(){
     window.open("https://www.naughtycatcafe.com/visit-us", "_blank")
 })
 
+$('#catcare').on('click', function(){
+    window.open("https://www.aspca.org/pet-care/cat-care/general-cat-care", "_blank")
+})
