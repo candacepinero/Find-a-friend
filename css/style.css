@@ -5,17 +5,39 @@
 
 /* styling header/img */
 #logo {
- width: 100%;
- height: 500px;
+    width: 100%;
+    height: 500px;
+    border: 5px solid whitesmoke;
  
     /* refer back to flexbox lesson */
 }
 
 
-
-
 /* styling image to to in center of screen */
+#imageContainer {
+    display: grid;
+    justify-content: center;
+    padding: 200px;
+}
 
+/* style button  */
+#friend-btn {
+    padding: 32px 16px;
+    border-radius: 50%;
+    border: 2px solid lightseagreen;
+    font-size: 40px;
+    position: relative;
+    margin-left: 550px;
+    margin-top: 100px;
+    
+
+    
+    
+}
+
+body {
+    background-color: rgb(43, 59, 62);
+}
 
 
 /* media query for responsive design */
