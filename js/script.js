@@ -17,9 +17,7 @@ function getImage() {
         $imageContainer.empty();
         //creates img tag and pulls from the API array data
         $imageContainer.append(`<img id="catImg" src='${data[0].url}'></img>`)
-        $(this)
-            .fade(1000)
-            
+       
         
        
     
