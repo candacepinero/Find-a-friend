@@ -12,7 +12,7 @@ Find a friend is a simple web application that displays cat photos and has links
 * Google fonts
 
 ### Screenshots
-![screenshot](./picture%20/Screen%20Shot%202022-05-11%20at%2011.46.10%20AM.png
+![screenshot](./picture%20/Screen%20Shot%202022-05-11%20at%2011.46.10%20AM.png)
 
 
 ### Getting started
