@@ -1,8 +1,7 @@
-
 header {
     background-color: #5e879d;
-    
-    
+
+
 }
 
 /* styling header/img */
@@ -23,8 +22,8 @@ header {
     justify-content: center;
     padding: 100px;
     /* border: 2px solid red; */
-    
-    
+
+
 
 
 }
@@ -36,8 +35,8 @@ header {
     /* position keeps button from moving to middle of page when img loads */
     position: absolute;
 
-    
-    
+
+
 }
 
 
@@ -48,8 +47,8 @@ header {
     justify-content: center;
     padding: 30px;
     margin-top: 500px;
-  
-   
+
+
 
 }
 
@@ -83,8 +82,8 @@ nav {
     justify-content: flex-end;
     margin-top: 2px;
     background-color: paleturquoise;
-    
-    
+
+
 
 }
 
@@ -97,8 +96,9 @@ nav {
     background-color: rgb(218, 246, 227);
     font-size: 30px;
     font-family: 'Amatic SC', cursive;
-    
+
 }
+
 #adopt-btn:hover {
     background-color: rgb(251, 249, 152);
     color: black;
@@ -116,6 +116,7 @@ nav {
     font-size: 30px;
     font-family: 'Amatic SC', cursive;
 }
+
 #cafe-btn:hover {
     background-color: rgb(251, 249, 152);
     color: black;
@@ -133,6 +134,7 @@ nav {
     font-size: 30px;
     font-family: 'Amatic SC', cursive;
 }
+
 /* adds effect to buttons when mouse hovers over it */
 #catcare:hover {
     background-color: rgb(251, 249, 152);
@@ -144,7 +146,7 @@ nav {
 
 body {
     background-color: whitesmoke;
-    
+
 }
 
 
@@ -156,20 +158,20 @@ body {
 
     }
 
-  #adopt-btn {
-     display: flex;
-     align-items: center;
-     
-      
-  }
+    #adopt-btn {
+        display: flex;
+        align-items: center;
 
-  #catcare {
-      display: flex;
-      align-items: center;
-  }
 
-  #cafe-btn {
-      display: flex;
-      align-items: center;
-  }
+    }
+
+    #catcare {
+        display: flex;
+        align-items: center;
+    }
+
+    #cafe-btn {
+        display: flex;
+        align-items: center;
+    }
 }
