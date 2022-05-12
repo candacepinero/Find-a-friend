@@ -13,13 +13,15 @@ console.log($findFriend)
 function getImage() {
    //function to call api for cat images 
     $.ajax(url).then(function(data) {   
+        
         //empties the the imageContainer div tag and renders new img 
-        $imageContainer.empty();
+        $imageContainer.empty()
+        
+        
         //creates img tag and pulls from the API array data
         $imageContainer.append(`<img id="catImg" src='${data[0].url}'></img>`)
        
         
-       
     
         console.log(data[0])
        
@@ -35,14 +37,20 @@ getImage();
 //next step creat a onclick function to render random photos when the button is clicked
 
 
+
 //button click function
-$('#friend-btn').on('click', function(event){
+$('#friend-btn').on('click', function(){
     
+    $('#catImg').fadeOut('2000', function(){
+       
+        getImage()
+        
+    })
     
-    getImage()
     
    
 })
+
 
 
 $('#adopt-btn').on('click', function(){
