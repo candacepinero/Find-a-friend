@@ -54,13 +54,13 @@ $('#friend-btn').on('click', function () {
 
 
 $('#adopt-btn').on('click', function () {
-    window.open("https://www.petfinder.com/", "_blank")
+    window.open("https://www.petfinder.com/")
 })
 
 $('#cafe-btn').on('click', function () {
-    window.open("https://www.naughtycatcafe.com/visit-us", "_blank")
+    window.open("https://www.naughtycatcafe.com/visit-us")
 })
 
 $('#catcare').on('click', function () {
-    window.open("https://www.aspca.org/pet-care/cat-care/general-cat-care", "_blank")
+    window.open("https://www.aspca.org/pet-care/cat-care/general-cat-care")
 })
